@@ -1,0 +1,57 @@
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Completions/BashCompletionsGenerator.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Completions/CompletionsGenerator.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Completions/FishCompletionsGenerator.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Completions/ZshCompletionsGenerator.swift.o
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/Argument.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/ArgumentDiscussion.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/ArgumentHelp.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/ArgumentVisibility.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/CompletionKind.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/Errors.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/Flag.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/NameSpecification.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/Option.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/OptionGroup.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/ParentCommand.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/AsyncParsableCommand.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/CommandConfiguration.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/CommandGroup.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/EnumerableFlag.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/ExpressibleByArgument.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/ParsableArguments.swift.o'
+'/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/ParsableCommand.swift.o'
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/ArgumentDecoder.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/ArgumentDefinition.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/ArgumentSet.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/CommandParser.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/InputKey.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/InputOrigin.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/Name.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/Parsed.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/ParsedValues.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/ParserError.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/SplitArguments.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Usage/DumpHelpGenerator.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Usage/HelpCommand.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Usage/HelpGenerator.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Usage/MessageInfo.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Usage/UsageGenerator.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/CollectionExtensions.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/Foundation.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/Mutex.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/Platform.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/SequenceExtensions.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/StringExtensions.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/SwiftExtensions.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/Tree.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Validators/CodingKeyValidator.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Validators/NonsenseFlagsValidator.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Validators/ParsableArgumentsValidation.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Validators/PositionalArgumentsValidator.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Validators/UniqueNamesValidator.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParserToolInfo.build/ToolInfo.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/AppleCLI.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/CalendarCommand.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ContactsCommand.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/RemindersCommand.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/EventKitStore.swift.o

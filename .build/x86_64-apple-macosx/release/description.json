@@ -1,0 +1,1554 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+    "GenerateDoccReference",
+    "GenerateManual"
+  ],
+  "pluginDescriptions" : [
+    {
+      "package" : "swift-argument-parser",
+      "productNames" : [
+        "GenerateDoccReference"
+      ],
+      "sources" : {
+        "relativePaths" : [
+          "GenerateDoccReference.swift",
+          "GenerateDoccReferenceError.swift",
+          "PackagePlugin+Helpers.swift"
+        ],
+        "root" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Plugins/GenerateDoccReference"
+      },
+      "targetName" : "GenerateDoccReference",
+      "toolsVersion" : {
+        "_version" : "5.8.0"
+      }
+    },
+    {
+      "package" : "swift-argument-parser",
+      "productNames" : [
+        "GenerateManual"
+      ],
+      "sources" : {
+        "relativePaths" : [
+          "GenerateManualPlugin.swift",
+          "GenerateManualPluginError.swift",
+          "PackagePlugin+Helpers.swift"
+        ],
+        "root" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Plugins/GenerateManual"
+      },
+      "targetName" : "GenerateManual",
+      "toolsVersion" : {
+        "_version" : "5.8.0"
+      }
+    }
+  ],
+  "swiftCommands" : {
+    "C.apple-cli-release.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "importPath" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/AppleCLI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/CalendarCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ContactsCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/RemindersCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/EventKitStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.swiftmodule"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "apple_cli",
+      "moduleOutputPath" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.swiftmodule",
+      "objects" : [
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/AppleCLI.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/CalendarCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ContactsCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/RemindersCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/EventKitStore.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-O",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "apple_cli_main",
+        "-framework",
+        "EventKit",
+        "-framework",
+        "Contacts",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-package-name",
+        "apple_cli"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/AppleCLI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/CalendarCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ContactsCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/RemindersCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/EventKitStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/aura/Developer/apple-cli/Sources/apple-cli/AppleCLI.swift",
+        "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/CalendarCommand.swift",
+        "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ContactsCommand.swift",
+        "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/RemindersCommand.swift",
+        "/Users/aura/Developer/apple-cli/Sources/apple-cli/EventKitStore.swift"
+      ],
+      "tempsPath" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.ArgumentParser-release.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "importPath" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Completions/BashCompletionsGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Completions/CompletionsGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Completions/FishCompletionsGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Completions/ZshCompletionsGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/Argument.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/ArgumentDiscussion.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/ArgumentHelp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/ArgumentVisibility.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/CompletionKind.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/Errors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/Flag.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/NameSpecification.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/Option.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/OptionGroup.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/ParentCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/AsyncParsableCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/CommandConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/CommandGroup.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/EnumerableFlag.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/ExpressibleByArgument.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/ParsableArguments.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/ParsableCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/ArgumentDecoder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/ArgumentDefinition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/ArgumentSet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/CommandParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/InputKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/InputOrigin.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/Name.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/Parsed.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/ParsedValues.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/ParserError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/SplitArguments.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Usage/DumpHelpGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Usage/HelpCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Usage/HelpGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Usage/MessageInfo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Usage/UsageGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/CollectionExtensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/Foundation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/Mutex.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/Platform.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/SequenceExtensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/StringExtensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/SwiftExtensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/Tree.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Validators/CodingKeyValidator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Validators/NonsenseFlagsValidator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Validators/ParsableArgumentsValidation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Validators/PositionalArgumentsValidator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Validators/UniqueNamesValidator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParserToolInfo.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ArgumentParser",
+      "moduleOutputPath" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.swiftmodule",
+      "objects" : [
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Completions/BashCompletionsGenerator.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Completions/CompletionsGenerator.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Completions/FishCompletionsGenerator.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Completions/ZshCompletionsGenerator.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/Argument.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/ArgumentDiscussion.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/ArgumentHelp.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/ArgumentVisibility.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/CompletionKind.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/Errors.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/Flag.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/NameSpecification.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/Option.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/OptionGroup.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/ParentCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/AsyncParsableCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/CommandConfiguration.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/CommandGroup.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/EnumerableFlag.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/ExpressibleByArgument.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/ParsableArguments.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/ParsableCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/ArgumentDecoder.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/ArgumentDefinition.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/ArgumentSet.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/CommandParser.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/InputKey.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/InputOrigin.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/Name.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/Parsed.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/ParsedValues.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/ParserError.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/SplitArguments.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Usage/DumpHelpGenerator.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Usage/HelpCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Usage/HelpGenerator.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Usage/MessageInfo.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Usage/UsageGenerator.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/CollectionExtensions.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/Foundation.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/Mutex.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/Platform.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/SequenceExtensions.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/StringExtensions.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/SwiftExtensions.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/Tree.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Validators/CodingKeyValidator.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Validators/NonsenseFlagsValidator.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Validators/ParsableArgumentsValidation.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Validators/PositionalArgumentsValidator.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Validators/UniqueNamesValidator.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-O",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/ArgumentParser-Swift.h",
+        "-enable-experimental-feature",
+        "StrictConcurrency",
+        "-enable-upcoming-feature",
+        "MemberImportVisibility",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-suppress-warnings"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Completions/BashCompletionsGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Completions/CompletionsGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Completions/FishCompletionsGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Completions/ZshCompletionsGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/Argument.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/ArgumentDiscussion.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/ArgumentHelp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/ArgumentVisibility.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/CompletionKind.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/Errors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/Flag.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/NameSpecification.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/Option.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/OptionGroup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Properties/ParentCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/AsyncParsableCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/CommandConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/CommandGroup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/EnumerableFlag.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/ExpressibleByArgument.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/ParsableArguments.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsable Types/ParsableCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/ArgumentDecoder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/ArgumentDefinition.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/ArgumentSet.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/CommandParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/InputKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/InputOrigin.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/Name.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/Parsed.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/ParsedValues.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/ParserError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Parsing/SplitArguments.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Usage/DumpHelpGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Usage/HelpCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Usage/HelpGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Usage/MessageInfo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Usage/UsageGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/CollectionExtensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/Foundation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/Mutex.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/Platform.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/SequenceExtensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/StringExtensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/SwiftExtensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Utilities/Tree.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Validators/CodingKeyValidator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Validators/NonsenseFlagsValidator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Validators/ParsableArgumentsValidation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Validators/PositionalArgumentsValidator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Validators/UniqueNamesValidator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Completions/BashCompletionsGenerator.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Completions/CompletionsGenerator.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Completions/FishCompletionsGenerator.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Completions/ZshCompletionsGenerator.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/Argument.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/ArgumentDiscussion.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/ArgumentHelp.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/ArgumentVisibility.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/CompletionKind.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/Errors.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/Flag.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/NameSpecification.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/Option.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/OptionGroup.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/ParentCommand.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/AsyncParsableCommand.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/CommandConfiguration.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/CommandGroup.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/EnumerableFlag.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/ExpressibleByArgument.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/ParsableArguments.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/ParsableCommand.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/ArgumentDecoder.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/ArgumentDefinition.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/ArgumentSet.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/CommandParser.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/InputKey.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/InputOrigin.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/Name.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/Parsed.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/ParsedValues.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/ParserError.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/SplitArguments.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Usage/DumpHelpGenerator.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Usage/HelpCommand.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Usage/HelpGenerator.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Usage/MessageInfo.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Usage/UsageGenerator.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/CollectionExtensions.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/Foundation.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/Mutex.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/Platform.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/SequenceExtensions.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/StringExtensions.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/SwiftExtensions.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/Tree.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Validators/CodingKeyValidator.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Validators/NonsenseFlagsValidator.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Validators/ParsableArgumentsValidation.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Validators/PositionalArgumentsValidator.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Validators/UniqueNamesValidator.swift"
+      ],
+      "tempsPath" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.ArgumentParserToolInfo-release.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "importPath" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParserToolInfo/ToolInfo.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ArgumentParserToolInfo",
+      "moduleOutputPath" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParserToolInfo.swiftmodule",
+      "objects" : [
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParserToolInfo.build/ToolInfo.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-O",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParserToolInfo.build/ArgumentParserToolInfo-Swift.h",
+        "-enable-upcoming-feature",
+        "MemberImportVisibility",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-suppress-warnings"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParserToolInfo.build/ToolInfo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParserToolInfo.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParserToolInfo/ToolInfo.swift"
+      ],
+      "tempsPath" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParserToolInfo.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.generate-docc-reference-release.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "importPath" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-docc-reference/Extensions/ArgumentParser+Markdown.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-docc-reference/Extensions/Process+SimpleAPI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-docc-reference/GenerateDoccReference.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParserToolInfo.swiftmodule"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "generate_docc_reference",
+      "moduleOutputPath" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_docc_reference.swiftmodule",
+      "objects" : [
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_docc_reference.build/Extensions/ArgumentParser+Markdown.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_docc_reference.build/Extensions/Process+SimpleAPI.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_docc_reference.build/GenerateDoccReference.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-O",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "generate_docc_reference_main",
+        "-enable-upcoming-feature",
+        "MemberImportVisibility",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-suppress-warnings"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_docc_reference.build/Extensions/ArgumentParser+Markdown.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_docc_reference.build/Extensions/Process+SimpleAPI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_docc_reference.build/GenerateDoccReference.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_docc_reference.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-docc-reference/Extensions/ArgumentParser+Markdown.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-docc-reference/Extensions/Process+SimpleAPI.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-docc-reference/GenerateDoccReference.swift"
+      ],
+      "tempsPath" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_docc_reference.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.generate-manual-release.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "importPath" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/AuthorArgument.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/ArgumentSynopsis.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Author.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Authors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/Container.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/Empty.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/ForEach.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/MDocASTNodeWrapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/MDocBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/MDocComponent.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Discussion.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Document.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/DocumentDate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Exit.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/List.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/MultiPageDescription.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Name.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Preamble.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Section.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/SeeAlso.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/SinglePageDescription.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Synopsis.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/Extensions/ArgumentParser+MDoc.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/Extensions/Date+ExpressibleByArgument.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/Extensions/Process+SimpleAPI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/GenerateManual.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/MDoc/MDocASTNode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/MDoc/MDocMacro.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/MDoc/MDocSerializationContext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/MDoc/String+Escaping.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParserToolInfo.swiftmodule"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "generate_manual",
+      "moduleOutputPath" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.swiftmodule",
+      "objects" : [
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/AuthorArgument.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/ArgumentSynopsis.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Author.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Authors.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Core/Container.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Core/Empty.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Core/ForEach.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Core/MDocASTNodeWrapper.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Core/MDocBuilder.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Core/MDocComponent.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Discussion.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Document.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/DocumentDate.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Exit.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/List.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/MultiPageDescription.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Name.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Preamble.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Section.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/SeeAlso.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/SinglePageDescription.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Synopsis.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/Extensions/ArgumentParser+MDoc.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/Extensions/Date+ExpressibleByArgument.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/Extensions/Process+SimpleAPI.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/GenerateManual.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/MDoc/MDocASTNode.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/MDoc/MDocMacro.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/MDoc/MDocSerializationContext.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/MDoc/String+Escaping.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-O",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "generate_manual_main",
+        "-enable-upcoming-feature",
+        "MemberImportVisibility",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-suppress-warnings"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/AuthorArgument.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/ArgumentSynopsis.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Author.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Authors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Core/Container.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Core/Empty.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Core/ForEach.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Core/MDocASTNodeWrapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Core/MDocBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Core/MDocComponent.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Discussion.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Document.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/DocumentDate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Exit.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/List.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/MultiPageDescription.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Name.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Preamble.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Section.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/SeeAlso.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/SinglePageDescription.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/DSL/Synopsis.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/Extensions/ArgumentParser+MDoc.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/Extensions/Date+ExpressibleByArgument.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/Extensions/Process+SimpleAPI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/GenerateManual.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/MDoc/MDocASTNode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/MDoc/MDocMacro.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/MDoc/MDocSerializationContext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build/MDoc/String+Escaping.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/AuthorArgument.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/ArgumentSynopsis.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Author.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Authors.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/Container.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/Empty.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/ForEach.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/MDocASTNodeWrapper.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/MDocBuilder.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/MDocComponent.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Discussion.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Document.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/DocumentDate.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Exit.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/List.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/MultiPageDescription.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Name.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Preamble.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Section.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/SeeAlso.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/SinglePageDescription.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Synopsis.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/Extensions/ArgumentParser+MDoc.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/Extensions/Date+ExpressibleByArgument.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/Extensions/Process+SimpleAPI.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/GenerateManual.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/MDoc/MDocASTNode.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/MDoc/MDocMacro.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/MDoc/MDocSerializationContext.swift",
+        "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/MDoc/String+Escaping.swift"
+      ],
+      "tempsPath" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/generate_manual.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "apple_cli" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "apple_cli",
+      "-package-name",
+      "apple_cli",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/aura/Developer/apple-cli/Sources/apple-cli/AppleCLI.swift",
+      "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/CalendarCommand.swift",
+      "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ContactsCommand.swift",
+      "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/RemindersCommand.swift",
+      "/Users/aura/Developer/apple-cli/Sources/apple-cli/EventKitStore.swift",
+      "-I",
+      "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release",
+      "-target",
+      "x86_64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-O",
+      "-g",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "apple_cli_main",
+      "-framework",
+      "EventKit",
+      "-framework",
+      "Contacts",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-package-name",
+      "apple_cli",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "ArgumentParser" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "ArgumentParser",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Completions/BashCompletionsGenerator.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Completions/CompletionsGenerator.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Completions/FishCompletionsGenerator.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Completions/ZshCompletionsGenerator.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/Argument.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/ArgumentDiscussion.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/ArgumentHelp.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/ArgumentVisibility.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/CompletionKind.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/Errors.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/Flag.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/NameSpecification.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/Option.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/OptionGroup.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Properties/ParentCommand.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/AsyncParsableCommand.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/CommandConfiguration.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/CommandGroup.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/EnumerableFlag.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/ExpressibleByArgument.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/ParsableArguments.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/ParsableCommand.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/ArgumentDecoder.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/ArgumentDefinition.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/ArgumentSet.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/CommandParser.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/InputKey.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/InputOrigin.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/Name.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/Parsed.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/ParsedValues.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/ParserError.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsing/SplitArguments.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Usage/DumpHelpGenerator.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Usage/HelpCommand.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Usage/HelpGenerator.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Usage/MessageInfo.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Usage/UsageGenerator.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/CollectionExtensions.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/Foundation.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/Mutex.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/Platform.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/SequenceExtensions.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/StringExtensions.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/SwiftExtensions.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Utilities/Tree.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Validators/CodingKeyValidator.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Validators/NonsenseFlagsValidator.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Validators/ParsableArgumentsValidation.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Validators/PositionalArgumentsValidator.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParser/Validators/UniqueNamesValidator.swift",
+      "-I",
+      "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release",
+      "-target",
+      "x86_64-apple-macosx10.13",
+      "-swift-version",
+      "5",
+      "-O",
+      "-g",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/ArgumentParser-Swift.h",
+      "-enable-experimental-feature",
+      "StrictConcurrency",
+      "-enable-upcoming-feature",
+      "MemberImportVisibility",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-suppress-warnings",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "ArgumentParserToolInfo" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "ArgumentParserToolInfo",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Sources/ArgumentParserToolInfo/ToolInfo.swift",
+      "-I",
+      "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release",
+      "-target",
+      "x86_64-apple-macosx10.13",
+      "-swift-version",
+      "5",
+      "-O",
+      "-g",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParserToolInfo.build/ArgumentParserToolInfo-Swift.h",
+      "-enable-upcoming-feature",
+      "MemberImportVisibility",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-suppress-warnings",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "generate_docc_reference" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "generate_docc_reference",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-docc-reference/Extensions/ArgumentParser+Markdown.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-docc-reference/Extensions/Process+SimpleAPI.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-docc-reference/GenerateDoccReference.swift",
+      "-I",
+      "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release",
+      "-target",
+      "x86_64-apple-macosx10.13",
+      "-swift-version",
+      "5",
+      "-O",
+      "-g",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "generate_docc_reference_main",
+      "-enable-upcoming-feature",
+      "MemberImportVisibility",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-suppress-warnings",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "generate_manual" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "generate_manual",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/AuthorArgument.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/ArgumentSynopsis.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Author.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Authors.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/Container.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/Empty.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/ForEach.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/MDocASTNodeWrapper.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/MDocBuilder.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Core/MDocComponent.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Discussion.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Document.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/DocumentDate.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Exit.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/List.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/MultiPageDescription.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Name.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Preamble.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Section.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/SeeAlso.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/SinglePageDescription.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/DSL/Synopsis.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/Extensions/ArgumentParser+MDoc.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/Extensions/Date+ExpressibleByArgument.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/Extensions/Process+SimpleAPI.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/GenerateManual.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/MDoc/MDocASTNode.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/MDoc/MDocMacro.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/MDoc/MDocSerializationContext.swift",
+      "/Users/aura/Developer/apple-cli/.build/checkouts/swift-argument-parser/Tools/generate-manual/MDoc/String+Escaping.swift",
+      "-I",
+      "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release",
+      "-target",
+      "x86_64-apple-macosx10.13",
+      "-swift-version",
+      "5",
+      "-O",
+      "-g",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "generate_manual_main",
+      "-enable-upcoming-feature",
+      "MemberImportVisibility",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-suppress-warnings",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "apple_cli" : [
+      "ArgumentParser",
+      "ArgumentParserToolInfo"
+    ],
+    "ArgumentParser" : [
+      "ArgumentParserToolInfo"
+    ],
+    "ArgumentParserToolInfo" : [
+
+    ],
+    "generate_docc_reference" : [
+      "ArgumentParser",
+      "ArgumentParserToolInfo"
+    ],
+    "generate_manual" : [
+      "ArgumentParser",
+      "ArgumentParserToolInfo"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  }
+}

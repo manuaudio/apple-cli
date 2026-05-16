@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
+options: "6bc548b51b6ecea194dd99d791948372"
+build_time: [1778956870, 848294000]
+inputs:
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/AppleCLI.swift": [9223372036, 854775807]
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/CalendarCommand.swift": [9223372036, 854775807]
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ContactsCommand.swift": [9223372036, 854775807]
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/RemindersCommand.swift": [9223372036, 854775807]
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/EventKitStore.swift": [9223372036, 854775807]

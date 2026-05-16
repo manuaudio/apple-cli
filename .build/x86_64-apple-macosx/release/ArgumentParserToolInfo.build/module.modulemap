@@ -1,0 +1,4 @@
+module ArgumentParserToolInfo {
+    header "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParserToolInfo.build/ArgumentParserToolInfo-Swift.h"
+    requires objc
+}

@@ -1,0 +1,32 @@
+{
+  "": {
+    "dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/apple_cli.d",
+    "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/apple_cli.o",
+    "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/master.swiftdeps"
+  },
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/AppleCLI.swift": {
+    "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/AppleCLI.swift.o",
+    "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/AppleCLI~partial.swiftmodule",
+    "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/AppleCLI.swiftdeps"
+  },
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/CalendarCommand.swift": {
+    "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/CalendarCommand.swift.o",
+    "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/CalendarCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/CalendarCommand.swiftdeps"
+  },
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ContactsCommand.swift": {
+    "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ContactsCommand.swift.o",
+    "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ContactsCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ContactsCommand.swiftdeps"
+  },
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/RemindersCommand.swift": {
+    "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/RemindersCommand.swift.o",
+    "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/RemindersCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/RemindersCommand.swiftdeps"
+  },
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/EventKitStore.swift": {
+    "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/EventKitStore.swift.o",
+    "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/EventKitStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/EventKitStore.swiftdeps"
+  }
+}
