@@ -51,7 +51,14 @@
 /Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParser.build/Validators/UniqueNamesValidator.swift.o
 /Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/ArgumentParserToolInfo.build/ToolInfo.swift.o
 /Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/AppleCLI.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/AppsCommand.swift.o
 /Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/CalendarCommand.swift.o
 /Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ContactsCommand.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/InfoCommand.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/NotifyCommand.swift.o
 /Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/RemindersCommand.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ScreenCommand.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SpeechCommand.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/StorageCommand.swift.o
+/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SystemCommand.swift.o
 /Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/EventKitStore.swift.o
