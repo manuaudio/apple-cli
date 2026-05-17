@@ -14,6 +14,11 @@
     "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/AppsCommand~partial.swiftmodule",
     "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/AppsCommand.swiftdeps"
   },
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/AxCommand.swift": {
+    "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/AxCommand.swift.o",
+    "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/AxCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/AxCommand.swiftdeps"
+  },
   "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/CalendarCommand.swift": {
     "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/CalendarCommand.swift.o",
     "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/CalendarCommand~partial.swiftmodule",
@@ -29,20 +34,60 @@
     "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/InfoCommand~partial.swiftmodule",
     "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/InfoCommand.swiftdeps"
   },
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/KeyboardCommand.swift": {
+    "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/KeyboardCommand.swift.o",
+    "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/KeyboardCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/KeyboardCommand.swiftdeps"
+  },
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/MailCommand.swift": {
+    "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/MailCommand.swift.o",
+    "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/MailCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/MailCommand.swiftdeps"
+  },
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/MessagesCommand.swift": {
+    "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/MessagesCommand.swift.o",
+    "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/MessagesCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/MessagesCommand.swiftdeps"
+  },
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/MouseCommand.swift": {
+    "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/MouseCommand.swift.o",
+    "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/MouseCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/MouseCommand.swiftdeps"
+  },
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/NotesCommand.swift": {
+    "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/NotesCommand.swift.o",
+    "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/NotesCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/NotesCommand.swiftdeps"
+  },
   "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/NotifyCommand.swift": {
     "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/NotifyCommand.swift.o",
     "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/NotifyCommand~partial.swiftmodule",
     "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/NotifyCommand.swiftdeps"
+  },
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/PhotosCommand.swift": {
+    "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/PhotosCommand.swift.o",
+    "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/PhotosCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/PhotosCommand.swiftdeps"
   },
   "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/RemindersCommand.swift": {
     "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/RemindersCommand.swift.o",
     "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/RemindersCommand~partial.swiftmodule",
     "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/RemindersCommand.swiftdeps"
   },
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SafariCommand.swift": {
+    "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SafariCommand.swift.o",
+    "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SafariCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SafariCommand.swiftdeps"
+  },
   "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ScreenCommand.swift": {
     "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ScreenCommand.swift.o",
     "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ScreenCommand~partial.swiftmodule",
     "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ScreenCommand.swiftdeps"
+  },
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ScreenshotCommand.swift": {
+    "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ScreenshotCommand.swift.o",
+    "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ScreenshotCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ScreenshotCommand.swiftdeps"
   },
   "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SpeechCommand.swift": {
     "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SpeechCommand.swift.o",

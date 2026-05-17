@@ -67,6 +67,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/AxCommand.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/CalendarCommand.swift"
         },
         {
@@ -79,7 +83,31 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/KeyboardCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/MailCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/MessagesCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/MouseCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/NotesCommand.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/NotifyCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/PhotosCommand.swift"
         },
         {
           "kind" : "file",
@@ -87,7 +115,15 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SafariCommand.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ScreenCommand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ScreenshotCommand.swift"
         },
         {
           "kind" : "file",
@@ -116,12 +152,21 @@
       "objects" : [
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/AppleCLI.swift.o",
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/AppsCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/AxCommand.swift.o",
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/CalendarCommand.swift.o",
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ContactsCommand.swift.o",
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/InfoCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/KeyboardCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/MailCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/MessagesCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/MouseCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/NotesCommand.swift.o",
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/NotifyCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/PhotosCommand.swift.o",
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/RemindersCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SafariCommand.swift.o",
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ScreenCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ScreenshotCommand.swift.o",
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SpeechCommand.swift.o",
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/StorageCommand.swift.o",
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SystemCommand.swift.o",
@@ -147,6 +192,12 @@
         "EventKit",
         "-framework",
         "Contacts",
+        "-framework",
+        "CoreGraphics",
+        "-framework",
+        "AppKit",
+        "-framework",
+        "ApplicationServices",
         "-sdk",
         "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
         "-Xcc",
@@ -169,6 +220,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/AxCommand.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/CalendarCommand.swift.o"
         },
         {
@@ -181,7 +236,31 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/KeyboardCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/MailCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/MessagesCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/MouseCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/NotesCommand.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/NotifyCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/PhotosCommand.swift.o"
         },
         {
           "kind" : "file",
@@ -189,7 +268,15 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SafariCommand.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ScreenCommand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ScreenshotCommand.swift.o"
         },
         {
           "kind" : "file",
@@ -215,12 +302,21 @@
       "sources" : [
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/AppleCLI.swift",
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/AppsCommand.swift",
+        "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/AxCommand.swift",
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/CalendarCommand.swift",
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ContactsCommand.swift",
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/InfoCommand.swift",
+        "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/KeyboardCommand.swift",
+        "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/MailCommand.swift",
+        "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/MessagesCommand.swift",
+        "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/MouseCommand.swift",
+        "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/NotesCommand.swift",
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/NotifyCommand.swift",
+        "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/PhotosCommand.swift",
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/RemindersCommand.swift",
+        "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SafariCommand.swift",
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ScreenCommand.swift",
+        "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ScreenshotCommand.swift",
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SpeechCommand.swift",
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/StorageCommand.swift",
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SystemCommand.swift",
@@ -1314,12 +1410,21 @@
       "-c",
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/AppleCLI.swift",
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/AppsCommand.swift",
+      "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/AxCommand.swift",
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/CalendarCommand.swift",
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ContactsCommand.swift",
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/InfoCommand.swift",
+      "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/KeyboardCommand.swift",
+      "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/MailCommand.swift",
+      "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/MessagesCommand.swift",
+      "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/MouseCommand.swift",
+      "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/NotesCommand.swift",
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/NotifyCommand.swift",
+      "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/PhotosCommand.swift",
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/RemindersCommand.swift",
+      "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SafariCommand.swift",
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ScreenCommand.swift",
+      "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ScreenshotCommand.swift",
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SpeechCommand.swift",
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/StorageCommand.swift",
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SystemCommand.swift",
@@ -1345,6 +1450,12 @@
       "EventKit",
       "-framework",
       "Contacts",
+      "-framework",
+      "CoreGraphics",
+      "-framework",
+      "AppKit",
+      "-framework",
+      "ApplicationServices",
       "-sdk",
       "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
       "-Xcc",

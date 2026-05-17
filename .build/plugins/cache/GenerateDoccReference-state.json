@@ -35,10 +35,10 @@
   "environment" : {
     "_" : "/usr/bin/swift",
     "__CF_USER_TEXT_ENCODING" : "0x1F5:0x0:0x0",
-    "AI_AGENT" : "claude-code_2-1-142_agent",
+    "AI_AGENT" : "claude-code_2-1-143_agent",
     "CLAUDE_CODE_ENTRYPOINT" : "cli",
-    "CLAUDE_CODE_EXECPATH" : "/Users/aura/.local/share/claude/versions/2.1.142",
-    "CLAUDE_CODE_SESSION_ID" : "390bf25b-af64-4ff5-b766-ce97f74c7a08",
+    "CLAUDE_CODE_EXECPATH" : "/Users/aura/.local/share/claude/versions/2.1.143",
+    "CLAUDE_CODE_SESSION_ID" : "f0d3db17-d84f-49e3-a5e5-b54793e6f774",
     "CLAUDE_EFFORT" : "high",
     "CLAUDECODE" : "1",
     "COLORTERM" : "truecolor",
@@ -72,7 +72,7 @@
     "XPC_FLAGS" : "0x0",
     "XPC_SERVICE_NAME" : "0"
   },
-  "inputHash" : "b1b76a4089f69dc6288e9c3543e05213ec4b4149c96b3a183651b952595265a7",
+  "inputHash" : "49d636a4e7e44040e3eb2f78fe2de81d4aa5f9d05dbb54cc702b982960fc4dde",
   "output" : "",
   "result" : {
     "exit" : {
