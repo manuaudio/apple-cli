@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
 options: "6bc548b51b6ecea194dd99d791948372"
-build_time: [1779003202, 140130000]
+build_time: [1779004415, 874739000]
 inputs:
   "/Users/aura/Developer/apple-cli/Sources/apple-cli/AppleCLI.swift": [9223372036, 854775807]
   "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/AppsCommand.swift": [9223372036, 854775807]
@@ -19,6 +19,7 @@ inputs:
   "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SafariCommand.swift": [9223372036, 854775807]
   "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ScreenCommand.swift": [9223372036, 854775807]
   "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ScreenshotCommand.swift": [9223372036, 854775807]
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SetupCommand.swift": [9223372036, 854775807]
   "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SpeechCommand.swift": [9223372036, 854775807]
   "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/StorageCommand.swift": [9223372036, 854775807]
   "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SystemCommand.swift": [9223372036, 854775807]

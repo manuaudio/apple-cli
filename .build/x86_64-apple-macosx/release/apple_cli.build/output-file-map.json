@@ -89,6 +89,11 @@
     "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ScreenshotCommand~partial.swiftmodule",
     "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ScreenshotCommand.swiftdeps"
   },
+  "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SetupCommand.swift": {
+    "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SetupCommand.swift.o",
+    "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SetupCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SetupCommand.swiftdeps"
+  },
   "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SpeechCommand.swift": {
     "object": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SpeechCommand.swift.o",
     "swiftmodule": "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SpeechCommand~partial.swiftmodule",

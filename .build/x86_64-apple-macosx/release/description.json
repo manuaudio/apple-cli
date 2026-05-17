@@ -127,6 +127,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SetupCommand.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SpeechCommand.swift"
         },
         {
@@ -167,6 +171,7 @@
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SafariCommand.swift.o",
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ScreenCommand.swift.o",
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/ScreenshotCommand.swift.o",
+        "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SetupCommand.swift.o",
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SpeechCommand.swift.o",
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/StorageCommand.swift.o",
         "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SystemCommand.swift.o",
@@ -280,6 +285,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SetupCommand.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/aura/Developer/apple-cli/.build/x86_64-apple-macosx/release/apple_cli.build/Commands/SpeechCommand.swift.o"
         },
         {
@@ -317,6 +326,7 @@
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SafariCommand.swift",
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ScreenCommand.swift",
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ScreenshotCommand.swift",
+        "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SetupCommand.swift",
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SpeechCommand.swift",
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/StorageCommand.swift",
         "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SystemCommand.swift",
@@ -1425,6 +1435,7 @@
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SafariCommand.swift",
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ScreenCommand.swift",
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/ScreenshotCommand.swift",
+      "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SetupCommand.swift",
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SpeechCommand.swift",
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/StorageCommand.swift",
       "/Users/aura/Developer/apple-cli/Sources/apple-cli/Commands/SystemCommand.swift",
